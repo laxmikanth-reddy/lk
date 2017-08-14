@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <title>flipkart</title>
+
+    <style>
+        .header{
+            background-color: #4c6aff;
+            padding: 10px;
+            top: 0px;
+            height: 140px;
+        }
+
+        .tab1{
+            font-size: 12px;
+            position: absolute;
+            right: 20px;
+            top: 0px;
+        }
+
+        .tab2{
+            display: inline-block;
+            padding-left: 1.8em;
+        }
+
+        .inner-addon{
+            display: inline-block;
+            position: absolute;
+            width: 400px;
+        }
+
+        .inner-addon .glyphicon{
+
+            position: absolute;
+            padding: 10px;
+            pointer-events: none;
+        }
+
+        .right-addon .glyphicon{
+            right: -200px;
+            background-color: #ffe00b;
+            width: 50px;
+            height: 35px;
+
+        }
+
+        .text{
+            width: 600px;
+            height: 37px;
+        }
+
+        .btn-cart{
+            background-color: #13a3ff;
+            position: absolute;
+            right: 435px;
+            height: 37px;
+            width: 78px;
+        }
+
+        .dropdown{
+            display: inline-block;
+            top: 18px;
+            left: 100px;
+        }
+
+        .dropdown-toggle{
+            background-color: transparent;
+            font-size: 12px;
+            color: white;
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="row">
+                <ul class="tab1">
+                    <li class="tab2"><a href="#"><font color="white"> Sell on flipkart</font></a></li>
+                    <li class="tab2"><a href="#"><font color="white">Advertise</font></a></li>
+                    <li class="tab2"><a href="#"><font color="white">Gift Card</font></a></li>
+                    <li class="tab2"><a href="#"><font color="white">Download App</font></a></li>
+                    <li class="tab2"><a href="#"><font color="white">24X7 Customer Care</font></a></li>
+                    <li class="tab2"><a href="#"><font color="white">Track Order</font></a></li>
+                    <li class="tab2"><a href="" class="btn" style="color: white"><span class="glyphicon glyphicon-bell"></span></a></li>
+                    <li class="tab2"><a href="#"><font color="white">Sign Up</font></a></li>
+                    <li class="tab2"><a href="#"><font color="white">Login</font></a></li>
+                </ul>
+            </div>
+
+
+        <div class="container">
+            <div class="row">
+                <!--<div class="search">--><br><br>
+
+                    <img src="img\fk-logo.png" width="149" title="flipkart" class="logo">
+
+                    <div class="inner-addon right-addon">
+                        <input type="text" class="text" placeholder="Search for Products, Brands and More">
+                        <button class="glyphicon glyphicon-search"></button>
+                    </div>
+
+                    <button type="button" class="btn  btn-cart">
+                        <a href="" style="color: white">
+                            <span class="glyphicon glyphicon-shopping-cart"></span> CART</a>
+                    </button>
+
+                <!--</div>-->
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">APPPLIANCES
+                        <span class="caret"></span> </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Television</a></li>
+                        <li><a href="#">Washing Machines</a></li>
+                        <li><a href="#">Refrigrators</a></li>
+                    </ul>
+                </div>
+
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">MEN
+                        <span class="caret"></span> </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Clothes</a></li>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Watches</a></li>
+                    </ul>
+                </div>
+
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">WOMEN
+                        <span class="caret"></span> </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Clothes</a></li>
+                        <li><a href="#">Make up kit</a></li>
+                        <li><a href="#">Shoes</a></li>
+                    </ul>
+                </div>
+
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">BABY & KIDS
+                        <span class="caret"></span> </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Kids Clothing</a></li>
+                        <li><a href="#">Toys</a></li>
+                        <li><a href="#">Baby Care</a></li>
+                    </ul>
+                </div>
+
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">HOME & FURNITURE
+                        <span class="caret"></span> </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Kitchen and Dinning</a></li>
+                        <li><a href="#">Furniture</a></li>
+                        <li><a href="#">Furnishing</a></li>
+                    </ul>
+                </div>
+
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">BOOKS & MORE
+                        <span class="caret"></span> </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Books</a></li>
+                        <li><a href="#">Games & Accessories</a></li>
+                        <li><a href="#">Car & Bike Accessories</a></li>
+                    </ul>
+                </div>
+
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">OFFER ZONE
+                        <span class="caret"></span> </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Discounts</a></li>
+                        <li><a href="#">Coupons</a></li>
+                        <li><a href="#">Gifts</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+        </div>
+    </header>
+
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="js\vendor\jquery-3.2.1.slim.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
